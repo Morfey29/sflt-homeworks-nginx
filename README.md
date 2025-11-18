@@ -40,7 +40,7 @@
 - Установите и настройте HAProxy, воспользуйтесь материалами к лекции по [ссылке](2/)
 - Настройте балансировку Round-robin на 4 уровне.
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy.
-![Скриншот-1](https://github.com/Morfey29/sflt-homeworks-nginx/blob/main/img/img1.jpg)
+![Скриншот-1](https://github.com/Morfey29/sflt-homeworks-nginx/blob/main/img/img1.png)
 [Файл конфигурации](https://github.com/Morfey29/sflt-homeworks-nginx/blob/main/CFG/haproxy1.cfg)
 
 
@@ -49,7 +49,7 @@
 - Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
 - HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
-![Скриншот-1](https://github.com/Morfey29/sflt-homeworks-nginx/blob/main/img/img2.jpg)
+![Скриншот-1](https://github.com/Morfey29/sflt-homeworks-nginx/blob/main/img/img2.png)
 [Файл конфигурации](https://github.com/Morfey29/sflt-homeworks-nginx/blob/main/CFG/haproxy2.cfg)
 
 
